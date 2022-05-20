@@ -85,6 +85,7 @@ header img {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    min-width: 32rem;
 }
 
 .main--coins img {
