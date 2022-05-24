@@ -104,7 +104,7 @@ header img {
 .coins--text-container p {
 
     font-size: 1.4rem;
-    color: var(--text);
+    color: var(--grey);
     margin-top: 2rem;
 
 }
@@ -277,7 +277,6 @@ header img {
 .main--benefits__container {
 
     width: 90%;
-
 
 }
 
@@ -563,5 +562,274 @@ footer {
 .footer--logo span {
 
     margin-top: 1rem;
+
+}
+
+@media screen and (min-width: 375px) {
+
+    .coins--card__container {
+
+        margin: 0rem 9.25rem;
+
+    }
+
+}
+
+@media screen and (min-width: 414px) {
+
+    .coins--card__container {
+
+        margin: 0rem 11.2rem;
+
+    }
+
+}
+
+@media screen and (min-width: 814px) {
+
+    .header--title-container p {
+
+        font-size: 2rem;
+
+    }
+    
+    .coins--card__container {
+
+        margin: 0rem 1.5rem;
+
+    }
+
+    .coins--table__slider {
+
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .main--benefits__container {
+
+        width: 70.5rem;
+
+    }
+
+    .main--benefits__descriptions {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .benefits__descriptions--element {
+
+        /* background-color: var(--warm-blackxd);
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: white;
+        height: 15.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-radius: 0.5rem;
+        box-shadow: 0px 4px 16px rgba(000, 000, 000, 0.2); */
+        max-width: 34.5rem;
+        max-height: 15.2rem;
+
+    }
+
+    
+    .plan {
+
+        max-width: 22.3rem;
+        
+    }
+
+    .plans__container {
+
+        justify-content: center;
+        overflow: hidden;
+    
+    }
+
+    .coins--table__slider {
+
+        overflow: hidden;
+    
+    }
+
+    header {
+        height: 500px;
+    }
+
+    header img {
+
+        width: 150px;
+        align-self: center;
+        margin-top: 0rem;
+    
+    }
+
+    .header--title-container {
+
+        width: 53%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+
+    .header--title-container h1, .main--benefits__text-container h2, .coins--text-container h2 {
+
+        font-size: 4rem;
+        line-height: 4.2rem;
+        align-items: center;
+     
+    }
+
+    
+    .header--title-container p{
+
+        margin-top: 30px;
+        width: 80%;
+        align-self: center;
+    
+    }
+
+    .coins--text-container {
+
+        display: flex;
+        margin-top: 4rem;
+        flex-direction: column;
+        align-items: center;
+        width: 65%;
+
+    }
+
+    .coins--text-container p {
+
+        font-size: 2rem;
+        width: 90%;
+        align-items: center;
+
+    }
+
+
+
+    .header--title-container .header--button {
+
+        top: 44rem;
+        margin-top: 3.5rem;
+    
+    }
+
+    .main--benefits {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main--benefits__text-container {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main--benefits__text-container p{
+
+        margin-top: 1rem;
+        font-size: 2rem;
+        width: 60%;
+        align-self: center;
+    
+    
+    }
+
+    /* .coins--text-container p {
+
+        font-size: 1.4rem;
+        color: var(--text);
+        margin-top: 2rem;
+    
+    } */
+
+}
+
+@media screen and (min-width: 1152px) {
+
+    header {
+        height: 450px;
+    }
+
+    header img {
+
+        width: 150px;
+        align-self: center;
+        margin-top: 0rem;
+    
+    }
+
+    .header--title-container {
+
+        width: 41%;
+    
+    }
+
+    .header--title-container p{
+
+        width: 100%;
+    
+    }
+
+    .header--title-container .header--button {
+
+        top: 39rem;
+        margin-top: 3.5rem;
+    
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    header img {
+
+        margin-top: 4rem;
+
+    }
+
+    .header--title-container {
+
+        width: 50%;
+    
+    }
+
+    .header--title-container h1 {
+
+        font-size: 4rem;
+    
+    }
+
+    .header--title-container p {
+
+        width: 80%;
+
+    }
+
+    .coins--text-container h2 {
+
+        width: 48%;
+
+    }
+
+    .coins--text-container p {
+
+        width: 49%;
+
+    }
+
+    
 
 }
